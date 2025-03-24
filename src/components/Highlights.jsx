@@ -20,7 +20,7 @@ export default function Highlights({stats}) {
       }
      { stats.title=="Humidity" ? ( 
       <div class="w-full mt-5 bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
-      <div class="bg-yellow-400 h-1.5 rounded-full dark:bg-blue-500" style={{width: "45%"}}></div>
+      <div class="bg-orange-400 h-1.5 rounded-full dark:bg-blue-500" style={{width: "45%"}}></div>
       </div>
      ):null
     }
