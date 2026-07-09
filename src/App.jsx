@@ -6,8 +6,9 @@ import Temp from './components/Temp';
 function App() {
   const [city, setcity] = useState("Mangalore");
   const [weatherData, setWeatherData] = useState(null);
-  const apiurl = `https://api.weatherapi.com/v1/current.json?key=7b928b30c2fd4ef88f443555251303&q=${city}&aqi=no`;
+const apiurl = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_KEY}&q=${city}&aqi=no`;
 
+ 
   useEffect(() => {
     fetch(apiurl)
       .then((response) => {
