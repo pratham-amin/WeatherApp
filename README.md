@@ -63,6 +63,9 @@ npm install
 ```
 
 4. Create a `.env` file in the root folder
+```bash
+VITE_WEATHER_KEY=your_api_key_here
+```
 
 5. Start the development server
 ```bash
@@ -70,6 +73,9 @@ npm run dev
 ```
 
 6. Open your browser and visit
+```bash
+http://localhost:5173
+```
 
 ### Get a Free API Key
 1. Go to [weatherapi.com](https://weatherapi.com)
